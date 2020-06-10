@@ -15,7 +15,6 @@ body {
   padding: 4px 15px;
   line-height: 1.47;
   font-size: 1rem;
-  display: inline-block;
 }
 
 .main-content > h2 {
@@ -34,7 +33,7 @@ body {
 .link {
   color: #0070c9;
   text-decoration: none;
-  display: inline-block;
+  position: relative;
 }
 
 .link:hover {
@@ -43,6 +42,13 @@ body {
 
 .link::after {
   content: '>';
-  padding-left: 8px;
-  display: inline-block;
+  display: block;
+  position: absolute;
+  right: -12px;
+  bottom: -2px;
+  transition: right ease 300ms;
+}
+
+.link:hover::after {
+  right: -18px;
 }
