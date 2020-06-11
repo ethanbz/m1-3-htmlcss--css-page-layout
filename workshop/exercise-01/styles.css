@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0px;
+}
+
+nav,footer {
+    background-color: rgb(49, 45, 45);
+    color: white;
+    padding: 10px;
+    text-align: center;;
+
+}
+
+.content {
+    text-align: center;
+    font-size: x-large;
+}

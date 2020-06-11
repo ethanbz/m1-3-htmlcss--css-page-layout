@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #313636;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    margin: 0 40px;
+    transition: ease-in-out 150ms;
+
+}
+
+.link {
+    margin-top: 15px;
+}
+
+.img {
+    margin-top:5px;
+}
+
+a:hover {
+    opacity: 30%;
+}
